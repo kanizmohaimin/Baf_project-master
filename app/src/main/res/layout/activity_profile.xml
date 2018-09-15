@@ -10,7 +10,12 @@
     android:paddingStart="15dp"
     >
 
-
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/editname"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/propic" />
 
     <TextView
         android:id="@+id/textView"
@@ -81,5 +86,215 @@
         android:ems="15"
         android:inputType="number"
         android:text="bd" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginBottom="236dp"
+        android:text="Rank"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/rank"
+        android:layout_width="223dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignStart="@+id/name"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="rank"
+        android:layout_alignLeft="@+id/name" />
+
+    <Button
+        android:id="@+id/editrank"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bd"
+        android:layout_marginStart="-40dp"
+        android:layout_toEndOf="@+id/name"
+        android:text=".."
+        android:layout_toRightOf="@+id/name"
+        android:layout_marginLeft="-40dp" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/bloodgroup"
+        android:text="bloodgroup"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+    <EditText
+        android:id="@+id/bloodgroup"
+        android:layout_width="181dp"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="203dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="bloodgroup"
+        android:layout_alignRight="@+id/name" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignTop="@+id/dateofcomission"
+        android:text="dateofcomission"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+    <EditText
+        android:id="@+id/dateofcomission"
+        android:layout_width="145dp"
+        android:layout_height="25dp"
+        android:layout_alignEnd="@+id/name"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="169dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="date"
+        android:layout_alignRight="@+id/name" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="390dp"
+        android:textSize="17sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="contact number" />
+
+    <EditText
+        android:id="@+id/contactnumber"
+        android:layout_width="145dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignEnd="@+id/name"
+        android:ems="15"
+        android:inputType="number"
+        android:text="date"
+        android:layout_alignRight="@+id/name" />
+
+    <Button
+        android:id="@+id/editconumber"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_marginStart="-40dp"
+        android:layout_toEndOf="@+id/name"
+        android:text=".."
+        android:layout_marginLeft="-40dp"
+        android:layout_toRightOf="@+id/name" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:layout_alignBaseline="@+id/editemail"
+        android:layout_alignStart="@+id/textView"
+        android:text="emailaddress"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="145dp"
+        android:layout_height="25dp"
+
+        android:layout_alignEnd="@+id/name"
+        android:layout_alignTop="@+id/textView7"
+        android:ems="15"
+        android:inputType="textEmailAddress"
+        android:text="date"
+        android:layout_alignRight="@+id/name" />
+
+    <Button
+        android:id="@+id/editemail"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_marginStart="-40dp"
+        android:layout_toEndOf="@+id/name"
+        android:text=".."
+        android:layout_marginLeft="-40dp"
+        android:layout_toRightOf="@+id/name" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="470dp"
+        android:textSize="17sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:text="present address" />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="167dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/textView8"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        android:ems="15"
+        android:inputType="textPersonName"
+        android:text="address" />
+
+    <Button
+        android:id="@+id/editaddress"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editemail"
+        android:layout_marginStart="-40dp"
+        android:layout_toEndOf="@+id/name"
+        android:text=".."
+        android:layout_marginLeft="-40dp"
+        android:layout_toRightOf="@+id/name" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rectriangle_btn"
+        android:text="save"
+        android:textColor="#ffffff" />
+
+
+
 
 </RelativeLayout>
