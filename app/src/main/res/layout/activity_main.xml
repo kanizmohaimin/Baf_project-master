@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/redcopy"
+    >
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:contentDescription="@string/logo"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitStart"
+        app:srcCompat="@drawable/logo"
+        android:layout_marginLeft="50dp"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="@string/moto"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#1a0f69"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/startbtn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="getStarted"
+        android:text="GET STARTED"
+        android:background="@drawable/rounded_btn"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:layout_marginBottom="50dp"
+        android:layout_gravity="center"
+        android:onClick="start"/>
+
+</LinearLayout>
