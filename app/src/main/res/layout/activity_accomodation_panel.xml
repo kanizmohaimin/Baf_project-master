@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    tools:context=".accomodation_panel">
+
+    <TextView
+        android:layout_width="154dp"
+        android:layout_height="35dp"
+        android:layout_centerHorizontal="true"
+        android:text="ACCOMODATION"
+        android:textStyle="bold"
+        android:textColor="@color/yellow"/>
+
+    <Button
+        android:id="@+id/ta"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:background="@drawable/rectriangle_btn"
+        android:text="type a"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <EditText
+        android:id="@+id/tad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tadt"
+        android:layout_width="278dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/ta"
+        android:layout_centerHorizontal="true"
+        android:text="fhaygdabzhgdwhahbchjzbcygfuabhsbcYGCshbfhdgydhfbyudgubc"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/ta2"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="204dp"
+        android:background="@drawable/rectriangle_btn"
+        android:text="type b"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <EditText
+        android:id="@+id/tad2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tadt2"
+        android:layout_width="278dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/ta2"
+        android:layout_centerHorizontal="true"
+        android:text="fhaygdabzhgdwhahbchjzbcygfuabhsbcYGCshbfhdgydhfbyudgubc"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/ta5"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/rounded_btn"
+        android:text="Apply For Quarter"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="109dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <Button
+        android:id="@+id/ta3"
+        android:layout_width="311dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="159dp"
+        android:background="@drawable/rectriangle_btn"
+        android:text="type c"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <EditText
+        android:id="@+id/tad3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tadt3"
+        android:layout_width="278dp"
+        android:layout_height="95dp"
+        android:layout_below="@+id/ta3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-159dp"
+        android:text="fhaygdabzhgdwhahbchjzbcygfuabhsbcYGCshbfhdgydhfbyudgubc"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+
+
+
+
+
+</RelativeLayout>
