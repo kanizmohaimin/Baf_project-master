@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/migsevencrop"
+    android:background="@drawable/ac2"
     android:paddingLeft="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
@@ -11,49 +11,47 @@
     >
 
     <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_above="@+id/editname"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/propic" />
+        android:layout_marginTop="40dp"
+        android:src="@drawable/profile" />
+
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+
         android:layout_marginLeft="22dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="210dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="150dp"
         android:textSize="17sp"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         android:text="Name" />
 
+
     <EditText
         android:id="@+id/name"
-        android:layout_width="223dp"
+        android:layout_width="196dp"
         android:layout_height="25dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/textView"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_marginStart="150dp"
         android:ems="15"
+        android:hint="NAME"
         android:inputType="textPersonName"
-        android:text="Name" />
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:background="@drawable/edt_background"
+        android:layout_marginLeft="5dp" />
 
 
-    <Button
-        android:id="@+id/editname"
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView"
-        android:layout_alignParentEnd="true"
-        android:text=".."
-        android:layout_alignParentRight="true" />
 
 
 
@@ -65,97 +63,73 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_marginLeft="22dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="250dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="200dp"
         android:textSize="17sp"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         android:text="BD" />
 
 
-
     <EditText
         android:id="@+id/bd"
-        android:layout_width="223dp"
+        android:layout_width="196dp"
         android:layout_height="25dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignTop="@+id/textView2"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
-        android:ems="15"
-        android:inputType="number"
-        android:text="bd" />
-
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="22dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginBottom="236dp"
-        android:text="Rank"
-        android:textColor="@android:color/white"
-        android:textSize="17sp"
-        android:textStyle="bold" />
-
-    <EditText
-        android:id="@+id/rank"
-        android:layout_width="223dp"
-        android:layout_height="25dp"
-        android:layout_alignBottom="@+id/textView3"
         android:layout_alignStart="@+id/name"
+        android:layout_alignTop="@+id/textView2"
+        android:background="@drawable/edt_background"
         android:ems="15"
-        android:inputType="textPersonName"
-        android:text="rank"
+        android:hint="BD NUMBER"
+        android:textSize="15sp"
+        android:visibility="visible"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textStyle="bold"
         android:layout_alignLeft="@+id/name" />
-
-    <Button
-        android:id="@+id/editrank"
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/bd"
-        android:layout_marginStart="-40dp"
-        android:layout_toEndOf="@+id/name"
-        android:text=".."
-        android:layout_toRightOf="@+id/name"
-        android:layout_marginLeft="-40dp" />
 
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
-        android:layout_height="30dp"
+        android:layout_height="25dp"
 
-        android:layout_alignStart="@+id/textView"
-        android:layout_alignTop="@+id/bloodgroup"
-        android:text="bloodgroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="250dp"
+        android:text="Bloodgroup"
         android:textColor="@android:color/white"
         android:textSize="17sp"
-        android:textStyle="bold"
-        android:layout_alignLeft="@+id/textView" />
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/bloodgroup"
-        android:layout_width="181dp"
+        android:layout_width="196dp"
         android:layout_height="25dp"
-        android:layout_alignEnd="@+id/name"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="203dp"
+        android:background="@drawable/edt_background"
+        android:layout_alignStart="@+id/name"
+        android:hint="BLOODGROUP"
+        android:layout_alignTop="@+id/textView4"
         android:ems="15"
         android:inputType="textPersonName"
-        android:text="bloodgroup"
-        android:layout_alignRight="@+id/name" />
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:layout_alignLeft="@+id/name" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
-        android:layout_height="30dp"
+        android:layout_height="25dp"
 
-        android:layout_alignStart="@+id/textView"
-        android:layout_alignTop="@+id/dateofcomission"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="300dp"
         android:text="dateofcomission"
         android:textColor="@android:color/white"
         android:textSize="17sp"
@@ -164,26 +138,30 @@
 
     <EditText
         android:id="@+id/dateofcomission"
-        android:layout_width="145dp"
+        android:layout_width="134dp"
         android:layout_height="25dp"
-        android:layout_alignEnd="@+id/name"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="169dp"
+        android:layout_alignStart="@+id/name"
+        android:hint="DATEOFCOMISSION"
+        android:background="@drawable/edt_background"
+        android:layout_alignTop="@+id/textView5"
         android:ems="15"
+        android:textSize="15sp"
+        android:textColor="#000000"
         android:inputType="textPersonName"
-        android:text="date"
-        android:layout_alignRight="@+id/name" />
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:layout_alignLeft="@+id/email" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
-        android:layout_height="30dp"
+        android:layout_height="25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+
         android:layout_marginLeft="22dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="390dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="350dp"
         android:textSize="17sp"
         android:textColor="@android:color/white"
         android:textStyle="bold"
@@ -191,33 +169,31 @@
 
     <EditText
         android:id="@+id/contactnumber"
-        android:layout_width="145dp"
+        android:layout_width="196dp"
         android:layout_height="25dp"
-        android:layout_alignBottom="@+id/textView6"
-        android:layout_alignEnd="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:hint="CONTACT NUMBER"
+        android:textColor="#000000"
+        android:layout_alignTop="@+id/textView6"
         android:ems="15"
+        android:textSize="15sp"
+        android:background="@drawable/edt_background"
         android:inputType="number"
-        android:text="date"
-        android:layout_alignRight="@+id/name" />
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:layout_alignLeft="@+id/dateofcomission" />
 
-    <Button
-        android:id="@+id/editconumber"
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView6"
-        android:layout_marginStart="-40dp"
-        android:layout_toEndOf="@+id/name"
-        android:text=".."
-        android:layout_marginLeft="-40dp"
-        android:layout_toRightOf="@+id/name" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
-        android:layout_height="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
 
-        android:layout_alignBaseline="@+id/editemail"
-        android:layout_alignStart="@+id/textView"
+        android:layout_marginLeft="22dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="400dp"
         android:text="emailaddress"
         android:textColor="@android:color/white"
         android:textSize="17sp"
@@ -226,72 +202,63 @@
 
     <EditText
         android:id="@+id/email"
-        android:layout_width="145dp"
+        android:layout_width="196dp"
         android:layout_height="25dp"
-
-        android:layout_alignEnd="@+id/name"
+        android:layout_alignStart="@+id/name"
+        android:hint="EMAIL"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:background="@drawable/edt_background"
         android:layout_alignTop="@+id/textView7"
         android:ems="15"
+        android:textStyle="bold"
+        android:visibility="visible"
         android:inputType="textEmailAddress"
-        android:text="date"
-        android:layout_alignRight="@+id/name" />
+        android:layout_alignLeft="@+id/name" />
 
-    <Button
-        android:id="@+id/editemail"
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView6"
-        android:layout_marginStart="-40dp"
-        android:layout_toEndOf="@+id/name"
-        android:text=".."
-        android:layout_marginLeft="-40dp"
-        android:layout_toRightOf="@+id/name" />
+
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
-        android:layout_height="30dp"
+        android:layout_height="25dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
+
         android:layout_marginLeft="22dp"
-        android:layout_marginStart="22dp"
-        android:layout_marginTop="470dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="450dp"
         android:textSize="17sp"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         android:text="present address" />
+
     <EditText
         android:id="@+id/address"
-        android:layout_width="167dp"
+        android:layout_width="196dp"
         android:layout_height="25dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
+        android:layout_alignStart="@+id/name"
+        android:hint="PRESENT ADDRESS"
+        android:textSize="15sp"
+
+        android:textColor="#000000"
         android:layout_alignTop="@+id/textView8"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
         android:ems="15"
+        android:textStyle="bold"
+        android:visibility="visible"
         android:inputType="textPersonName"
-        android:text="address" />
+        android:background="@drawable/edt_background"
+        android:layout_alignLeft="@+id/dateofcomission" />
+
 
     <Button
-        android:id="@+id/editaddress"
-        android:layout_width="40dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/editemail"
-        android:layout_marginStart="-40dp"
-        android:layout_toEndOf="@+id/name"
-        android:text=".."
-        android:layout_marginLeft="-40dp"
-        android:layout_toRightOf="@+id/name" />
-
-    <Button
-        android:id="@+id/save"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/update"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
         android:background="@drawable/rectriangle_btn"
-        android:text="save"
+        android:text="Update Information"
         android:textColor="#ffffff" />
 
 

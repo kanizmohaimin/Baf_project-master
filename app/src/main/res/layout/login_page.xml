@@ -15,7 +15,7 @@
         android:layout_height="180dp"
         android:background="@drawable/logo"
         android:contentDescription="@string/logo"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="20dp"
         android:id="@+id/logo"
         />
@@ -51,16 +51,17 @@
     <Space
         android:layout_width="match_parent"
         android:layout_height="30dp" />
+
     <Button
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:id="@+id/logintbn"
-        android:contentDescription="login"
-        android:text="LOGIN"
+        android:layout_width="168dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="83dp"
         android:background="@drawable/rounded_btn"
-        android:textColor="#ffffff"
-        android:textSize="28sp"
+        android:contentDescription="login"
         android:onClick="log"
-        />
+        android:text="LOGIN"
+        android:textColor="#ffffff"
+        android:textSize="28sp" />
 
 </LinearLayout>

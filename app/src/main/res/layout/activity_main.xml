@@ -14,13 +14,13 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:layout_width="match_parent"
-        android:layout_height="180dp"
-        android:contentDescription="@string/logo"
+        android:layout_width="123dp"
+        android:layout_height="151dp"
+        android:layout_marginLeft="95dp"
         android:layout_marginTop="20dp"
+        android:contentDescription="@string/logo"
         android:scaleType="fitStart"
-        app:srcCompat="@drawable/logo"
-        android:layout_marginLeft="50dp"/>
+        app:srcCompat="@drawable/logo" />
     
     <TextView
         android:layout_width="match_parent"
