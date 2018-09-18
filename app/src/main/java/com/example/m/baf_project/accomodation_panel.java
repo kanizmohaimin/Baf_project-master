@@ -21,5 +21,7 @@ public class accomodation_panel extends AppCompatActivity {
 
 
 
+
+
     }
 }

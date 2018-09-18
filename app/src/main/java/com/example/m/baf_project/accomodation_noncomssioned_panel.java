@@ -9,13 +9,10 @@ import android.widget.Button;
 public class accomodation_noncomssioned_panel extends AppCompatActivity {
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accomodation_panel);
-
-
 
     }
 }

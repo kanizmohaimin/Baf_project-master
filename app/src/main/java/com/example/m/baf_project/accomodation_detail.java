@@ -85,17 +85,11 @@ public class accomodation_detail extends AppCompatActivity {
         ta2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent8 = new Intent(accomodation_detail.this, accomadation_form.class);
-                startActivity(intent8);
+                Intent intent12 = new Intent(accomodation_detail.this, accomadation_form.class);
+                startActivity(intent12);
             }
         });
-        ta3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent88 = new Intent(accomodation_detail.this, accomadation_form.class);
-                startActivity(intent88);
-            }
-        });
+
 
         typea.setOnClickListener(new View.OnClickListener() {
             @Override
