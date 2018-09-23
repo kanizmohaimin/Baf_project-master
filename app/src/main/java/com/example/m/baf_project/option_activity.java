@@ -16,6 +16,7 @@ public class option_activity extends AppCompatActivity {
         setContentView(R.layout.option_page);
         pb=(Button) findViewById(R.id.myprofile);
         pb1=(Button)findViewById(R.id.accom);
+        pb2=(Button)findViewById(R.id.waitinglist);
         pb.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,6 +28,13 @@ public class option_activity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 openactivity1();
+
+            }
+        });
+        pb2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openactivity2();
 
             }
         });
@@ -42,6 +50,13 @@ public class option_activity extends AppCompatActivity {
 
         Intent intent6 = new Intent(option_activity.this, accomodation_detail.class);
         startActivity(intent6);
+
+
+    }
+    public void openactivity2() {
+
+        Intent intent66 = new Intent(option_activity.this, waiting_list.class);
+        startActivity(intent66);
 
 
     }

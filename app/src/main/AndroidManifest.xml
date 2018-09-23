@@ -19,7 +19,7 @@
         <activity android:name=".login_activity" />
         <activity android:name=".option_activity" />
         <activity android:name=".profile" />
-        <activity android:name=".accomadation_form" />
+        <activity android:name=".accomodation_form" />
         <activity android:name=".updateinfo" />
         <activity
             android:name=".accomodation_detail"
@@ -27,7 +27,8 @@
         <activity android:name=".accomodation_panel" />
         <activity android:name=".accomodation_non" />
         <activity android:name=".generalrules_panel" />
-        <activity android:name=".accomodation_form" />
+
+        <activity android:name=".waiting_list"></activity>
     </application>
 
 </manifest>
