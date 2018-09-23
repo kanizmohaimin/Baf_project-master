@@ -3,7 +3,13 @@
     <string name="moto">Free Shall we keep the sky of Bangladesh</string>
     <string name="logo">Logo</string>
     <string name="title_activity_accomodation_detail">accomodation_detail</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="title_Officer">Officer</string>
+    <string name="title_Others">Others</string>
+    <string name="title_Rules">Rules</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
 </resources>

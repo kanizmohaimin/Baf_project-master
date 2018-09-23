@@ -9,7 +9,7 @@
 
     <include android:id="@+id/eco" layout="@layout/activity_accomodation_panel"></include>
     <include android:id="@+id/gen2" layout="@layout/activity_generalrules_panel"></include>
-    <include android:id="@+id/gen" layout="@layout/activity_accomodation_noncomssioned_panel"></include>
+    <include android:id="@+id/gen" layout="@layout/activity_accomodation_non"></include>
 
 
     <android.support.design.widget.BottomNavigationView

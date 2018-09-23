@@ -18,7 +18,7 @@ public class profile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
         name=findViewById(R.id.name);
         bd=findViewById(R.id.bd);
-        rank=findViewById(R.id.rank);
+       // rank=findViewById(R.id.);
         bloodgroup=findViewById(R.id.bloodgroup);
         dateofcomission=findViewById(R.id.dateofcomission);
         contactnumber=findViewById(R.id.contactnumber);
@@ -30,7 +30,7 @@ public class profile extends AppCompatActivity {
 
 
 
-        up.setClickable(false);
+        //up.setClickable(false);
 
         up.setOnClickListener(new View.OnClickListener() {
             @Override
