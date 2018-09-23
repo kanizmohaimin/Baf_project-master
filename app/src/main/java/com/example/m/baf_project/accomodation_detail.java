@@ -59,7 +59,7 @@ public class accomodation_detail extends AppCompatActivity {
         }
     };
 
-    Button typea, typeb, typec, ta3, typeaa, typebb, typecc,apply;
+    Button typea, typeb, typec, ta3, typeaa, typebb, typecc,apply,apply2;
     TextView t1, t2, t3, t11, t22, t33;
 
     @Override
@@ -85,10 +85,27 @@ public class accomodation_detail extends AppCompatActivity {
         t2 = findViewById(R.id.tadt2);
         t3 = findViewById(R.id.tadt3);
 
+        typeaa =(Button) findViewById(R.id.tae);
+        typebb = (Button)findViewById(R.id.tae2);
+        typecc =(Button) findViewById(R.id.tae3);
+
+        t11 = findViewById(R.id.tadtt);
+        t22 = findViewById(R.id.tadtt2);
+        t33 = findViewById(R.id.tadtt3);
+
+        apply2=(Button)findViewById(R.id.apply2);
+
         apply.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openactivity14();
+
+            }
+        });
+        apply2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openactivity15();
 
             }
         });
@@ -114,6 +131,29 @@ public class accomodation_detail extends AppCompatActivity {
                 t3.setText("These C type quarters are provided from Flg offrs to Sqn ldr ranked officers");
             }
         });
+
+
+
+
+        typeaa.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                t11.setText("These A type quarters are provided for Warrent Officers and above ranks");
+            }
+        });
+        typebb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                t22.setText("These B type quarters are provided for Cpl and above");
+            }
+        });
+        typecc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                t33.setText("These C type quarters are provided from Lac to above ranks");
+            }
+        });
+
         BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
     }
@@ -123,6 +163,13 @@ public class accomodation_detail extends AppCompatActivity {
 
         Intent intent5 = new Intent(accomodation_detail.this, accomodation_form.class);
         startActivity(intent5);
+
+
+    }
+    public void openactivity15() {
+
+        Intent intent55 = new Intent(accomodation_detail.this, accomodation_form.class);
+        startActivity(intent55);
 
 
     }
