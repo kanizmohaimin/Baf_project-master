@@ -29,7 +29,7 @@
         android:hint="@string/moto"
         android:textSize="40sp"
         android:textStyle="bold"
-        android:textColor="#1a0f69"
+        android:textColor="#0a0819"
         android:gravity="center"/>
 
     <Button
